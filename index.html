@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Recipe Finder</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <nav>
+                <h1 class="logo">Foodo</h1>
+                <div class="search">
+                    <input type="text" placeholder="Search for recipes" class="search-box"/>
+                    <button type="submit" class="btn">Search</button>
+                </div>
+            </nav>
+        <main>
+            <section>
+                <div class="recipe-container">
+                    <h2>Search your favourite recipe</h2>
+                </div>
+                <div>
+                    <img src="cooking.svg" class="cooking"/>
+                </div>
+                <div class="recipe-details">
+                    <button type="button" class="recipe-close-btn">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="recipe-detail-content"></div>
+                </div>
+            </section>
+        </main>
+        <script src="script.js" ></script>
+    </body>
+</html>
